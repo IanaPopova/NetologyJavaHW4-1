@@ -14,20 +14,20 @@ public class Main {
         expected = 500;
 
         actual = service.calculate(amount, registered);
-        System.out.println("1." + expected + " == ? == " + actual);
+        System.out.println("2." + expected + " == ? == " + actual);
 
         amount = 1000;
         registered = false;
         expected = 10;
 
         actual = service.calculate(amount, registered);
-        System.out.println("1." + expected + " == ? == " + actual);
+        System.out.println("3." + expected + " == ? == " + actual);
 
         amount = 1000000;
         registered = false;
         expected = 500;
 
         actual = service.calculate(amount, registered);
-        System.out.println("1." + expected + " == ? == " + actual);
+        System.out.println("4." + expected + " == ? == " + actual);
     }
 }
